@@ -8,6 +8,8 @@ namespace PolarHrm_Assignment
 {
     public class hrdata
     {
+      
+
         //Data Parameter according to version 106
         public int HeartRate { get; set; }
         public int Speed { get; set; }

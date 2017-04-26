@@ -18,6 +18,7 @@ namespace PolarHrm_Assignment
         public Form1()
         {
             InitializeComponent();
+            
         }
         //Initializing Graph
        
@@ -30,19 +31,14 @@ namespace PolarHrm_Assignment
         List<parameters> parameters = new List<parameters>();
         parameters differentParameters = new parameters();
         
-        gettersandsetters getandset = new gettersandsetters();
-
-       
-
-       
+        gettersandsetters getandset = new gettersandsetters();      
 
         //Declaring a variable
         int linenum;
 
         //creating datatables 
 
-        DataTable dt = new DataTable();
-      
+        DataTable dt = new DataTable();    
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -166,9 +162,9 @@ namespace PolarHrm_Assignment
                             label1.Text = "Date::";
                             label2.Text = "Start Time::";
                             label3.Text = "Interval::";
-                               label4.Text = differentParameters.Date;
-                              label5.Text = differentParameters.StartTime;
-                             label6.Text = differentParameters.Interval;
+                            label4.Text = differentParameters.Date;
+                            label5.Text = differentParameters.StartTime;
+                            label6.Text = differentParameters.Interval;
 
                             break;
                         }
@@ -237,7 +233,7 @@ namespace PolarHrm_Assignment
 
                 }
             }
-            
+
 
             //putting column name is data grid view as per version of parmas
             string[] columnNames = { " HeartRate", " Speed", " Cadence", " Altitude", " Power", "PowerBalancePedalling" };
@@ -251,9 +247,6 @@ namespace PolarHrm_Assignment
 
             foreach (hrdata hd in hr)
             {
-
-
-
                 dt.Rows.Add(hd.HeartRate, hd.Speed, hd.Cadence, hd.Altitude, hd.Power, hd.PowerBalancePedalling);
             }
 
@@ -272,6 +265,9 @@ namespace PolarHrm_Assignment
             int maxSpeed = 0;
             int minCadence = 1000;
             int maxCadence = 0;
+            int count1 = 0, sum1 = 0;
+            double distance;
+            int speed;
             //calculating the data to find maximum,minimum
 
             foreach (hrdata value in hr)
@@ -287,7 +283,7 @@ namespace PolarHrm_Assignment
                     maxHeartRate = hrValue;
                 }
                 sum += hrValue;
-                count++;
+                count ++;
                 //for altitude 
                 int altValue = value.Altitude;
                 if (altValue < minAltitude)
@@ -320,7 +316,8 @@ namespace PolarHrm_Assignment
                 {
                     maxSpeed = SpeedValue;
                 }
-
+                sum1 += SpeedValue;
+                count1 ++;
                 //cadence
 
                 int CadenceValue = value.Cadence;
@@ -336,35 +333,42 @@ namespace PolarHrm_Assignment
 
             }
             //calculating the stats of heart rate
-            label7.Text ="Average Heart Rate::"+ (sum / count).ToString();
-            label8.Text ="Maximum Heart Rate::"+maxHeartRate.ToString();
+            label7.Text = "Average Heart Rate::" + (sum / count).ToString();
+            label8.Text = "Maximum Heart Rate::" + maxHeartRate.ToString();
             label9.Text = "Minimum Heart Rate::" + minHeartRate.ToString();
 
             getandset.setMaxHeartRate(maxHeartRate);
             getandset.setMinHeartRate(minHeartRate);
             getandset.setMaxCadence(maxCadence);
             getandset.setMinCadence(minCadence);
-           
+
 
             //calculating for altitude ,power ,speed
-            label10.Text ="Maximun Power::" + maxPower.ToString()+"Watt";
-            label11.Text ="Minimum Power::" +minPower.ToString()+"Watt";
+            label10.Text = "Maximun Power::" + maxPower.ToString() + "Watt";
+            label11.Text = "Minimum Power::" + minPower.ToString() + "Watt";
             getandset.setMaxPower(maxPower);
             getandset.setMinPower(minPower);
 
-            label12.Text = "Maximum Altitude::" + maxAltitude.ToString()+"Meter";
-            label13.Text = "Minimum Altitude::" + minAltitude.ToString()+"Meter";
+            label12.Text = "Maximum Altitude::" + maxAltitude.ToString() + "Meter";
+            label13.Text = "Minimum Altitude::" + minAltitude.ToString() + "Meter";
             getandset.setMaxAltitude(maxAltitude);
             getandset.setMinAltitude(minAltitude);
 
-            label14.Text = "Maximum Speed::" + maxSpeed.ToString()+"Km/Hr";
-            label15.Text = "Minimum Speed::" + minSpeed.ToString() + "Km/Hr";
+            label14.Text = "Maximum Speed::" + (maxSpeed/10).ToString()+"Km/Hr";
+            label15.Text = "Minimum Speed::" + (minSpeed/10).ToString() + "Km/Hr";
             getandset.setMaxSpeed(maxSpeed);
             getandset.setMinSpeed(minSpeed);
-
-
+            //total distance
+            speed = sum1 / (count1 * 10);
+            double interval = Double.Parse(differentParameters.Interval);
+            double totalDataCount = count * interval;
+            double totalTime = totalDataCount / 3600;
+            distance = speed * totalTime;
+            label21.Text = "Distance::" + distance.ToString() + "km";
+          
             ParseData.DataSource = dt;
         }
+
         static DateTime start, duration;
         private void SetTime()
         {
@@ -380,6 +384,7 @@ namespace PolarHrm_Assignment
         GraphPane GPane;
 
         ZedGraphControl zgc;
+  
 
         PointPairList heartratePPList = new PointPairList();
         PointPairList speedPPList = new PointPairList();
@@ -391,7 +396,7 @@ namespace PolarHrm_Assignment
 
         double x, y1, y2, y3, y4, y5;
 
-
+       
 
         private void showGraph()
         {
@@ -521,6 +526,8 @@ namespace PolarHrm_Assignment
         {
 
         }
+
+     
 
         private void zedGraphControl1_Load(object sender, EventArgs e)
         {

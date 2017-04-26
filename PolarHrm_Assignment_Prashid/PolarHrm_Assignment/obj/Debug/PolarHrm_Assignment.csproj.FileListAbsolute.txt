@@ -99,3 +99,28 @@ F:\8th sem\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\tr\ZedGraph
 F:\8th sem\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\zh-cn\ZedGraph.resources.dll
 F:\8th sem\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\zh-tw\ZedGraph.resources.dll
 F:\8th sem\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.Form1.resources
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.csprojResolveAssemblyReference.cache
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.Form1.resources
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.Main.resources
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.Properties.Resources.resources
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.csproj.GenerateResource.Cache
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.exe
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\obj\Debug\PolarHrm_Assignment.pdb
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\PolarHrm_Assignment.exe.config
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\PolarHrm_Assignment.exe
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\PolarHrm_Assignment.pdb
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\ZedGraph.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\ZedGraph.xml
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\PR s T r O p HY\Documents\l6assigment2\PolarHrm_Assignment_Prashid\PolarHrm_Assignment\bin\Debug\zh-tw\ZedGraph.resources.dll
