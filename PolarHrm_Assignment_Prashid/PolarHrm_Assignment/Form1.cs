@@ -527,7 +527,29 @@ namespace PolarHrm_Assignment
 
         }
 
-     
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked)
+            {
+                double newDistance = distance * 0.62;
+
+                double newMaxSpeed = (maxSpeed / 10) * 0.62;
+                double newMinSpeed = (minSpeed / 10) * 0.62;
+                maxSpeed.Text = newMaxSpeed.ToString() + "miles/hr";
+                minSpeed.Text = newMinSpeed.ToString() + "miles/hr";
+                label21.Text = newDistance.ToString() + "Miles";
+
+            }
+            else
+            {
+
+                maxSpeed.Text = (maxSpeed / 10).ToString() + "km/hr";
+                minSpeed.Text = (minSpeed / 10).ToString() + "km/hr";
+                label21.Text = distance.ToString() + "km";
+            }
+
+        
+    }
 
         private void zedGraphControl1_Load(object sender, EventArgs e)
         {
