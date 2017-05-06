@@ -47,9 +47,10 @@
             // 
             // browseFile
             // 
-            this.browseFile.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.browseFile.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.browseFile.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.browseFile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.browseFile.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.browseFile.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.browseFile.Location = new System.Drawing.Point(391, 342);
             this.browseFile.Name = "browseFile";
             this.browseFile.Size = new System.Drawing.Size(172, 32);
@@ -161,7 +162,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(392, 107);
+            this.pictureBox1.Size = new System.Drawing.Size(402, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 46;
             this.pictureBox1.TabStop = false;
