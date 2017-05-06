@@ -1292,7 +1292,7 @@
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(1080, 480);
             this.tabPage7.TabIndex = 5;
-            this.tabPage7.Text = "Selectable Information";
+            this.tabPage7.Text = "Selective Information";
             // 
             // read1
             // 
