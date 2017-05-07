@@ -1316,6 +1316,11 @@ namespace Assignment1_Polar
 
         }
 
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+
+        }
+
         /// <summary>
         /// for checking speed in selectable info
         /// </summary>

@@ -1293,6 +1293,7 @@
             this.tabPage7.Size = new System.Drawing.Size(1080, 480);
             this.tabPage7.TabIndex = 5;
             this.tabPage7.Text = "Selective Information";
+            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
             // 
             // read1
             // 

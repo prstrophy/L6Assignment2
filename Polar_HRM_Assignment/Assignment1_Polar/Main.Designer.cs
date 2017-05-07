@@ -51,7 +51,7 @@
             this.browseFile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.browseFile.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.browseFile.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.browseFile.Location = new System.Drawing.Point(391, 342);
+            this.browseFile.Location = new System.Drawing.Point(373, 335);
             this.browseFile.Name = "browseFile";
             this.browseFile.Size = new System.Drawing.Size(172, 32);
             this.browseFile.TabIndex = 0;
