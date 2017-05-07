@@ -533,7 +533,7 @@
             this.smodeValue.AutoSize = true;
             this.smodeValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.smodeValue.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.smodeValue.Location = new System.Drawing.Point(79, 90);
+            this.smodeValue.Location = new System.Drawing.Point(94, 130);
             this.smodeValue.MinimumSize = new System.Drawing.Size(70, 10);
             this.smodeValue.Name = "smodeValue";
             this.smodeValue.Size = new System.Drawing.Size(70, 19);
@@ -546,7 +546,7 @@
             this.label21.BackColor = System.Drawing.Color.Turquoise;
             this.label21.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(3, 54);
+            this.label21.Location = new System.Drawing.Point(5, 73);
             this.label21.MinimumSize = new System.Drawing.Size(70, 15);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(72, 19);
@@ -558,7 +558,7 @@
             this.versionValue.AutoSize = true;
             this.versionValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.versionValue.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.versionValue.Location = new System.Drawing.Point(79, 54);
+            this.versionValue.Location = new System.Drawing.Point(83, 73);
             this.versionValue.MinimumSize = new System.Drawing.Size(70, 10);
             this.versionValue.Name = "versionValue";
             this.versionValue.Size = new System.Drawing.Size(70, 19);
@@ -572,7 +572,7 @@
             this.label22.BackColor = System.Drawing.Color.Turquoise;
             this.label22.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(3, 90);
+            this.label22.Location = new System.Drawing.Point(5, 130);
             this.label22.MinimumSize = new System.Drawing.Size(70, 10);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(70, 19);
